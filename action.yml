@@ -4,7 +4,7 @@ input:
   who-to-greet:
     descrption: "Who to greet"
     required: false
-    #default: "World"
+    default: "World"
 outputs:
   time:
     descrption: "The time we greeted you"
