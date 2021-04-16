@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/user-define-js-action-test@v1.1
+        uses: actions/checkout@v2
         # with:
         #   who-to-greet: "Lazcat"
       - name: Get the output time
