@@ -2,9 +2,9 @@ name: "Hello World"
 descrption: "Greet some and record the time"
 input:
   who-to-greet:
-    descrption: "Who to greet"
+    description: "Who to greet"
     required: false
-    #default: "World"
+    default: "World"
 # outputs:
 #   time:
 #     descrption: "The time we greeted you"
