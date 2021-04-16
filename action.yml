@@ -4,11 +4,10 @@ input:
   who-to-greet:
     descrption: "Who to greet"
     required: false
-    default: "World"
-outputs:
-  time:
-    descrption: "The time we greeted you"
-
+    #default: "World"
+# outputs:
+#   time:
+#     descrption: "The time we greeted you"
 runs:
   using: "node12"
   main: "dist/index.js"
