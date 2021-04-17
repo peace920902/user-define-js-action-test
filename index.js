@@ -6,8 +6,8 @@ try {
     const nameToGreet = core.getInput('who-to-greet', { required: false });
 
     console.log('a' + nameToGreet + 'b');
-    core.setFailed('failed');
     console.log(typeof (nameToGreet));
+    console.log(nameToGreet.length === 0);
     console.log('"": ' + "" === nameToGreet);
     console.log(null == nameToGreet);
 
